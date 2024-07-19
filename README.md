@@ -15,7 +15,8 @@ Uses a USB Camera as video input.
 Usage:  
 ```python3 bot.py```
 
-![image](https://github.com/user-attachments/assets/ed56420d-66e4-4559-9bdf-f229a8cef153)
+<img src="https://github.com/user-attachments/assets/deb778ba-b4c8-43f3-8d2f-58982ca35811" width="25%">
+<img src="https://github.com/user-attachments/assets/ed56420d-66e4-4559-9bdf-f229a8cef153" width="50%">
 
-![image](https://github.com/user-attachments/assets/deb778ba-b4c8-43f3-8d2f-58982ca35811)
-(Yes..., my ubuntu time is bad configured)
+
+(Yes..., my ubuntu time is not configured)
