@@ -11,7 +11,7 @@ Uses a USB Camera as video input.
 - Logger to see what happened in the bot
 - Nothing more, its so simple!
 
-Usage:
-python3 bot.py
+Usage:  
+```python3 bot.py```
 
 
