@@ -12,6 +12,13 @@ Uses a USB Camera as video input.
 - Images / videos with timestamp
 - Nothing more, its so simple!
 
+## Install dependencies
+```
+sudo apt update
+sudo apt install pip
+pip install python-telegram-bot
+```  
+
 Usage:  
 ```python3 bot.py```
 
@@ -20,3 +27,21 @@ Usage:
 
 
 (Yes..., my ubuntu time is not configured)
+
+## (Advanced) If you want to use telegram bot in Read-Only file systems
+(asuming you are in read-only mode and DNS is not working)  
+Do:
+```
+sudo mount -o remount,rw /
+```
+In ```/etc/resolv.conf``` (with sudo nano or sudo vim) add:  
+```
+nameserver 8.8.8.8  
+nameserver 8.8.4.4
+```
+Change to ro to store changes and reboot...
+```
+sudo mount -o remount,ro /
+```
+
+Also change VIDEO_PATH and IMAGE_PATH to a path in ```/tmp``` directory, like ```/tmp/output.mp4```
